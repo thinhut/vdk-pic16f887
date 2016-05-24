@@ -1,0 +1,49 @@
+\contentsline {figure}{\numberline {1}{\ignorespaces S\IeC {\ohorn } \IeC {\dj }\IeC {\`\ocircumflex } ch\IeC {\^a}n c\IeC {\h u}a PIC 16F887\relax }}{4}{figure.caption.7}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {1.1}{\ignorespaces M\IeC {\d a}ch \IeC {\dj }i\IeC {\`\ecircumflex }u ki\IeC {\h \ecircumflex }n LED n\IeC {\'\ocircumflex }i v\IeC {\'\ohorn }i PORT E\relax }}{6}{figure.caption.9}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {2.1}{\ignorespaces M\IeC {\d a}ch \IeC {\dj }i\IeC {\`\ecircumflex }u khi\IeC {\h \ecircumflex }n LCD\relax }}{12}{figure.caption.22}
+\contentsline {figure}{\numberline {2.2}{\ignorespaces K\IeC {\'\ecircumflex }t qu\IeC {\h a} hi\IeC {\h \ecircumflex }n th\IeC {\d i} k\IeC {\'y} t\IeC {\d \uhorn } l\IeC {\^e}n LCD 16x02\relax }}{14}{figure.caption.26}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {3.1}{\ignorespaces M\IeC {\d a}ch \IeC {\dj }\IeC {\h a}o tr\IeC {\d a}ng th\IeC {\'a}i LED \IeC {\h \ohorn } PORT E v\IeC {\'\ohorn }i ng\IeC {\'\abreve }t ngo\IeC {\`a}i\relax }}{20}{figure.caption.41}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces M\IeC {\d a}ch \IeC {\dj }\IeC {\d o}c s\IeC {\'\ocircumflex } l\IeC {\`\acircumflex }n nh\IeC {\'\acircumflex }n n\IeC {\'u}t \IeC {\h \ohorn } ch\IeC {\^a}n B0 hi\IeC {\h \ecircumflex }n th\IeC {\d i} l\IeC {\^e}n LCD\relax }}{22}{figure.caption.46}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces M\IeC {\d a}ch \IeC {\dj }\IeC {\d o}c n\IeC {\'u}t nh\IeC {\'\acircumflex }n t\IeC {\`\uhorn } ch\IeC {\^a}n B3 -- B5 v\IeC {\`a} hi\IeC {\h \ecircumflex }n th\IeC {\d i} l\IeC {\^e}n LCD\relax }}{24}{figure.caption.51}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {4.1}{\ignorespaces M\IeC {\d a}ch \IeC {\dj }\IeC {\d o}c ADC t\IeC {\`\uhorn } bi\IeC {\'\ecircumflex }n tr\IeC {\h \ohorn }\relax }}{28}{figure.caption.56}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces K\IeC {\'\ecircumflex }t qu\IeC {\h a} ch\IeC {\uhorn }\IeC {\ohorn }ng tr\IeC {\`\i }nh ADC hi\IeC {\h \ecircumflex }n th\IeC {\d i} l\IeC {\^e}n LCD 16x02\relax }}{30}{figure.caption.60}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces K\IeC {\'\ecircumflex }t qu\IeC {\h a} ch\IeC {\uhorn }\IeC {\ohorn }ng tr\IeC {\`\i }nh ADC xu\IeC {\'\acircumflex }t ra PORT E\relax }}{32}{figure.caption.65}
+\contentsline {figure}{\numberline {4.4}{\ignorespaces M\IeC {\d a}ch \IeC {\dj }\IeC {\d o}c ADC t\IeC {\`\uhorn } bi\IeC {\'\ecircumflex }n tr\IeC {\h \ohorn } xu\IeC {\'\acircumflex }t gi\IeC {\'a} tr\IeC {\d i} ra LED\relax }}{32}{figure.caption.67}
+\contentsline {figure}{\numberline {4.5}{\ignorespaces M\IeC {\d a}ch \IeC {\dj }\IeC {\d o}c ADC t\IeC {\`\uhorn } bi\IeC {\'\ecircumflex }n tr\IeC {\h \ohorn } g\IeC {\h \uhorn }i l\IeC {\^e}n PC\relax }}{35}{figure.caption.72}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {5.1}{\ignorespaces M\IeC {\d a}ch \IeC {\dj }\IeC {\'\ecircumflex }m s\IeC {\'\ocircumflex } l\IeC {\`\acircumflex }n nh\IeC {\'\acircumflex }n n\IeC {\'u}t s\IeC {\h \uhorn } d\IeC {\d u}ng Timer hi\IeC {\h \ecircumflex }n th\IeC {\d i} l\IeC {\^e}n LCD\relax }}{43}{figure.caption.85}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {6.1}{\ignorespaces M\IeC {\d a}ch \IeC {\dj }\IeC {\d o}c gi\IeC {\'a} tr\IeC {\d i} nhi\IeC {\d \ecircumflex }t \IeC {\dj }\IeC {\d \ocircumflex } t\IeC {\`\uhorn } IC TC74\relax }}{47}{figure.caption.90}
+\contentsline {figure}{\numberline {6.2}{\ignorespaces M\IeC {\d a}ch \IeC {\dj }\IeC {\d o}c th\IeC {\`\ohorn }i gian th\IeC {\d \uhorn }c t\IeC {\`\uhorn } module RTC DS3231\relax }}{51}{figure.caption.98}
+\contentsline {figure}{\numberline {6.3}{\ignorespaces K\IeC {\'\ecircumflex }t qu\IeC {\h a} \IeC {\dj }\IeC {\d o}c th\IeC {\`\ohorn }i gian th\IeC {\d \uhorn }c t\IeC {\`\uhorn } IC DS3231\relax }}{52}{figure.caption.100}
+\contentsline {figure}{\numberline {6.4}{\ignorespaces K\IeC {\'\ecircumflex }t qu\IeC {\h a} \IeC {\dj }\IeC {\d o}c th\IeC {\`\ohorn }i gian th\IeC {\d \uhorn }c v\IeC {\`a} nhi\IeC {\d \ecircumflex }t \IeC {\dj }\IeC {\d \ocircumflex } t\IeC {\`\uhorn } IC DS3231\relax }}{56}{figure.caption.108}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {7.1}{\ignorespaces M\IeC {\d a}ch s\IeC {\h \uhorn } d\IeC {\d u}ng module RS232 to TTL nh\IeC {\d \acircumflex }n l\IeC {\d \ecircumflex }nh t\IeC {\`\uhorn } PC b\IeC {\d \acircumflex }t t\IeC {\'\abreve }t LED \IeC {\h \ohorn } PORT E\relax }}{62}{figure.caption.114}
+\contentsline {figure}{\numberline {7.2}{\ignorespaces M\IeC {\d a}ch s\IeC {\h \uhorn } d\IeC {\d u}ng module RS232 to TTL nh\IeC {\d \acircumflex }n chu\IeC {\~\ocircumflex }i t\IeC {\`\uhorn } PC hi\IeC {\h \ecircumflex }n th\IeC {\d i} l\IeC {\^e}n LCD\relax }}{64}{figure.caption.119}
+\contentsline {figure}{\numberline {7.3}{\ignorespaces M\IeC {\d a}ch s\IeC {\h \uhorn } d\IeC {\d u}ng module RS232 to TTL g\IeC {\h \uhorn }i nhi\IeC {\d \ecircumflex }t \IeC {\dj }\IeC {\d \ocircumflex } t\IeC {\`\uhorn } IC DS3231 l\IeC {\^e}n PC\relax }}{66}{figure.caption.124}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {8.1}{\ignorespaces M\IeC {\d a}ch c\IeC {\`\acircumflex }u H \IeC {\dj }i\IeC {\`\ecircumflex }u khi\IeC {\h \ecircumflex }n chi\IeC {\`\ecircumflex }u quay c\IeC {\h u}a \IeC {\dj }\IeC {\d \ocircumflex }ng c\IeC {\ohorn }\relax }}{69}{figure.caption.126}
+\contentsline {figure}{\numberline {8.2}{\ignorespaces S\IeC {\ohorn } \IeC {\dj }\IeC {\`\ocircumflex } ch\IeC {\^a}n IC L293D\relax }}{69}{figure.caption.127}
+\contentsline {figure}{\numberline {8.3}{\ignorespaces Ph\IeC {\uhorn }\IeC {\ohorn }ng ph\IeC {\'a}p \IeC {\dj }i\IeC {\`\ecircumflex }u ch\IeC {\'\ecircumflex } \IeC {\dj }\IeC {\d \ocircumflex } r\IeC {\d \ocircumflex }ng xung\relax }}{70}{figure.caption.128}
+\contentsline {figure}{\numberline {8.4}{\ignorespaces M\IeC {\d a}ch \IeC {\dj }\IeC {\h a}o chi\IeC {\`\ecircumflex }u \IeC {\dj }\IeC {\d \ocircumflex }ng c\IeC {\ohorn } v\IeC {\'\ohorn }i IC L293D\relax }}{72}{figure.caption.132}
+\contentsline {figure}{\numberline {8.5}{\ignorespaces \IeC {\DJ }i\IeC {\`\ecircumflex }u khi\IeC {\h \ecircumflex }n t\IeC {\'\ocircumflex }c \IeC {\dj }\IeC {\d \ocircumflex } \IeC {\dj }\IeC {\d \ocircumflex }ng c\IeC {\ohorn } v\IeC {\'\ohorn }i Transistor\relax }}{77}{figure.caption.139}
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {A.1}{\ignorespaces Giao di\IeC {\d \ecircumflex }n c\IeC {\h u}a ph\IeC {\`\acircumflex }n m\IeC {\`\ecircumflex }m PICKit 2 Programmer\relax }}{86}{figure.caption.146}
+\contentsline {figure}{\numberline {A.2}{\ignorespaces Giao di\IeC {\d \ecircumflex }n khi n\IeC {\d a}p th\IeC {\`a}nh c\IeC {\^o}ng ch\IeC {\uhorn }\IeC {\ohorn }ng tr\IeC {\`\i }nh cho PIC\relax }}{87}{figure.caption.147}
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {D.1}{\ignorespaces S\IeC {\ohorn } \IeC {\dj }\IeC {\`\ocircumflex } ch\IeC {\^a}n c\IeC {\h u}a LED 7 \IeC {\dj }o\IeC {\d a}n\relax }}{94}{figure.caption.148}
+\contentsline {figure}{\numberline {D.2}{\ignorespaces S\IeC {\ohorn } \IeC {\dj }\IeC {\`\ocircumflex } ch\IeC {\^a}n c\IeC {\h u}a LED 7 \IeC {\dj }o\IeC {\d a}n Anode ho\IeC {\d \abreve }c Kathode chung ngo\IeC {\`a}i th\IeC {\d \uhorn }c t\IeC {\'\ecircumflex }\relax }}{94}{figure.caption.149}
+\contentsline {figure}{\numberline {D.3}{\ignorespaces S\IeC {\ohorn } \IeC {\dj }\IeC {\`\ocircumflex } ch\IeC {\^a}n c\IeC {\h u}a IC ghi d\IeC {\d i}ch 74HC595\relax }}{96}{figure.caption.152}
+\contentsline {figure}{\numberline {D.4}{\ignorespaces S\IeC {\ohorn } \IeC {\dj }\IeC {\`\ocircumflex } m\IeC {\d a}ch \IeC {\dj }i\IeC {\`\ecircumflex }u khi\IeC {\h \ecircumflex }n m\IeC {\d \ocircumflex }t LED 7 \IeC {\dj }o\IeC {\d a}n\relax }}{98}{figure.caption.156}
+\contentsline {figure}{\numberline {D.5}{\ignorespaces S\IeC {\ohorn } \IeC {\dj }\IeC {\`\ocircumflex } m\IeC {\d a}ch \IeC {\dj }i\IeC {\`\ecircumflex }u khi\IeC {\h \ecircumflex }n m\IeC {\d \ocircumflex }t LED 7 \IeC {\dj }o\IeC {\d a}n qua IC 74HC595\relax }}{100}{figure.caption.159}
+\contentsline {figure}{\numberline {D.6}{\ignorespaces S\IeC {\ohorn } \IeC {\dj }\IeC {\`\ocircumflex } m\IeC {\d a}ch \IeC {\dj }i\IeC {\`\ecircumflex }u khi\IeC {\h \ecircumflex }n 4 LED 7 \IeC {\dj }o\IeC {\d a}n\relax }}{102}{figure.caption.163}
+\contentsline {figure}{\numberline {D.7}{\ignorespaces S\IeC {\ohorn } \IeC {\dj }\IeC {\`\ocircumflex } m\IeC {\d a}ch \IeC {\dj }i\IeC {\`\ecircumflex }u khi\IeC {\h \ecircumflex }n 4 LED 7 \IeC {\dj }o\IeC {\d a}n qua IC 74HC595\relax }}{104}{figure.caption.167}
+\addvspace {10\p@ }
+\addvspace {10\p@ }

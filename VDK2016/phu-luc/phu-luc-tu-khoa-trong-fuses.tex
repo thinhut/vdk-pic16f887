@@ -1,0 +1,45 @@
+\chapter{Các khai báo sau \#FUSES}
+%Trong phần đầu chương trình chúng ta có sử dụng các từ viết tắt khái báo sau \verb|#FUSES|, các từ này có ý nghĩa như sau:
+\begin{table}[!h]
+\vspace{-2cm}
+\begin{center}
+\begin{longtable}{|c|c|c|c|}\hline
+\textit{STT} & \textit{Từ viết tắt} & \multicolumn{2}{|c|}{\textit{Ý nghĩa}} \\ \hline
+\multicolumn{4}{|c|}{\textit{WATCH DOG TIMER}}\\ \hline
+1 & \verb|NOWDT| & \multicolumn{2}{|l|}{Không sử dụng bộ Watch Dog Timer} \\ \hline
+2 & \verb|WDT| & \multicolumn{2}{|l|}{Sử dụng bộ Watch Dog Timer} \\ \hline
+\multicolumn{4}{|c|}{\textit{HIGH SPEED OSC}}\\ \hline
+3 & \verb|LP| & \multicolumn{2}{|l|}{Sử dụng nguồn dao động tần số thấp $f<200kHz$} \\ \hline
+4 & \verb|XT| & \multicolumn{2}{|l|}{Dao động thạch anh $f<4MHz$ với PCM/PCH} \\ \cline{3-4}
+ &  & \multicolumn{2}{|l|}{Dao động thạch anh $f=3MHz-10MHz$ với PCD} \\ \hline
+5 & \verb|RC| & \multicolumn{2}{|l|}{Dao động RC với CLKOUT} \\ \hline
+6 & \verb|HS| & \multicolumn{2}{|l|}{Dao động tần số cao} \\ \cline{3-4}
+ &  & \multicolumn{2}{|l|}{$f>4MHz$ với PCM/PCH hoặc $f>10MHz$ với PCD} \\ \hline
+ \multicolumn{4}{|c|}{\textit{POWER UP TIMER}}\\ \hline
+7 & \verb|NOPUT| & \multicolumn{2}{|l|}{Không sử dụng Power Up Timer} \\ \hline
+8 & \verb|PUT| & \multicolumn{2}{|l|}{Sử dụng Power Up Timer} \\ \hline
+\multicolumn{4}{|c|}{\textit{BROWN OUT}}\\ \hline
+9 & \verb|NOBROWNOUT| & \multicolumn{2}{|l|}{Không reset chip khi BrownOut} \\ \hline
+10 & \verb|BROWNOUT| & \multicolumn{2}{|l|}{Reset chip khi BrownOut} \\ \hline
+\multicolumn{4}{|c|}{\textit{LOW VOLTAGE PROGRAM}}\\ \hline
+11 & \verb|NOLVP| & \multicolumn{2}{|l|}{Không lập trình điện áp thấp, B3 (PIC16); B5 (PIC18) là I/O} \\ \hline
+12 & \verb|LVP| & \multicolumn{2}{|l|}{Lập trình điện áp thấp trên B3 (PIC16); B5 (PIC18)} \\ \hline
+\multicolumn{4}{|c|}{\textit{CODE PROTECED EEPROM}}\\ \hline
+13 & \verb|NOCPD| & \multicolumn{2}{|l|}{Không bảo vệ dữ liệu EEPROM} \\ \hline
+14 & \verb|CPD| & \multicolumn{2}{|l|}{Bảo vệ dữ liệu EEPROM} \\ \hline
+\multicolumn{4}{|c|}{\textit{PROGRAM WRITE PROTECED}}\\ \hline
+15 & \verb|WRT| & \multicolumn{2}{|l|}{Bộ nhớ chương trình viết được bảo vệ} \\ \hline
+16 & \verb|WRT_50%| & \multicolumn{2}{|l|}{Nửa phần dưới của bộ nhớ chương trình viết được bảo vệ} \\ \hline
+17 & \verb|WRT_5%| & \multicolumn{2}{|l|}{Bộ nhớ chương trình viết ít hơn 255 byte thì được bảo vệ} \\ \hline
+18 & \verb|NOWRT| & \multicolumn{2}{|l|}{Bộ nhớ chương trình viết không được bảo vệ} \\ \hline
+\multicolumn{4}{|c|}{\textit{DEBUG FOR ICD}}\\ \hline
+19 & \verb|NODEBUG| & \multicolumn{2}{|l|}{Không sử dụng chế độ Debug với ICD} \\ \hline
+20 & \verb|DEBUG| & \multicolumn{2}{|l|}{Sử dụng chế độ Debug với ICD} \\ \hline
+\multicolumn{4}{|c|}{\textit{CODE PROTECED FROM READING}}\\ \hline
+21 & \verb|NOPROTECT| & \multicolumn{2}{|l|}{Cho phép đọc lại code} \\ \hline
+22 & \verb|PROTECT| & \multicolumn{2}{|l|}{Không cho phép đọc lại code} \\ \hline
+\end{longtable}
+\end{center}
+\vspace{-.4cm}
+\caption{Ý nghĩa của các khai báo trong \#FUSES}
+\end{table}

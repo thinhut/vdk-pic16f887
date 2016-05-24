@@ -1,0 +1,74 @@
+%Chinh dong 380 tu 50 --> 10 o file extreport
+\documentclass[13pt,a4paper]{extreport}
+\usepackage[utf8]{inputenc}
+\usepackage[utf8]{vietnam} %Bien dich duoc tieng Viet
+\usepackage{amsmath,amsfonts,amssymb} %Font toan
+\usepackage{type1cm}
+\usepackage{graphicx}
+\usepackage{subfigure}
+\usepackage{caption}
+\usepackage{longtable}
+\usepackage{comment}
+\usepackage{multirow}
+\usepackage[unicode]{hyperref} %Tu dong tao bookmark
+\hypersetup{colorlinks = false}
+\usepackage{indentfirst} %Thut vao dau dong o tat ca cac doan
+\usepackage{listings} %Dinh dang code
+\usepackage{color} %Mau sac
+\usepackage[left=3cm,right=2cm,top=3cm,bottom=3cm]{geometry} %Canh lề trái - phải - trên - dưới cho tài liệu
+\definecolor{dkgreen}{rgb}{0,0.6,0}
+\definecolor{gray}{rgb}{0.5,0.5,0.5}
+\definecolor{mauve}{rgb}{0.58,0,0.82}
+
+\lstset{frame=tb,
+	language=C,
+	aboveskip=3mm,
+	belowskip=3mm,
+	showstringspaces=false,
+	columns=flexible,
+	basicstyle={\small\ttfamily},
+	numbers=left,
+	numberstyle=\tiny\color{gray},
+	keywordstyle=\color{blue},
+	commentstyle=\color{dkgreen},
+	stringstyle=\color{mauve},
+	%numberstyle=\tiny\color{black},
+	%keywordstyle=\color{black},
+	%commentstyle=\color{black},
+	%stringstyle=\color{black},
+	breaklines=true,
+	captionpos=t,
+	breakatwhitespace=true,
+	tabsize=2
+}
+
+\newcommand{\nocontentsline}[3]{}
+\newcommand{\tocless}[2]{\bgroup\let\addcontentsline=\nocontentsline#1{#2}\egroup} 
+\renewcommand{\arraystretch}{1.3}
+\begin{document}
+\input{trang-bia/title-page.tex}
+\pagenumbering{roman}
+\tableofcontents
+
+\listoffigures
+
+\listoftables
+
+\newpage
+\pagenumbering{arabic}
+\input{gioi-thieu/gioi-thieu.tex}
+\part*{NỘI DUNG BÁO CÁO THỰC TẬP}
+\addcontentsline{toc}{chapter}{NỘI DUNG BÁO CÁO THỰC TẬP}
+\input{phu-luc/so-do-chan.tex}
+\input{bai-1/bai-1.tex}
+\input{bai-2/bai-2.tex}
+\input{bai-3/bai-3.tex}
+\input{bai-4/bai-4.tex}
+\input{bai-5/bai-5.tex}
+\input{bai-6/bai-6.tex}
+\input{bai-7/bai-7.tex}
+\input{bai-8/bai-8.tex}
+\input{bai-9/bai-9.tex}
+\appendix
+\input{phu-luc/phu-luc.tex}
+\end{document}

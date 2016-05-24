@@ -1,0 +1,44 @@
+\part*{PHỤ LỤC}
+\addcontentsline{toc}{part}{PHỤ LỤC}
+\input{phu-luc/pickit-2}
+\chapter{Thư viện DEF\_887.H}\label{def:887}
+%\addcontentsline{toc}{chapter}{Thư viện DEF\_887.H}
+Nội dung file \verb|DEF_887.H| (tên định danh của các PORT, các chân và thanh ghi).
+\lstinputlisting[language=C]{DEF_887.H}
+\chapter{Thư viện LCD\_LIB\_4BIT.C}\label{def:lcd}
+Nội dung file \verb|LCD_LIB_4BIT.C|
+\lstinputlisting[language=C]{LCD_LIB_4BIT.C}
+\chapter{Hiển thị với LED 7 đoạn}
+\label{app:led-7-doan}
+\input{phu-luc/led7seg.tex}
+%\chapter{Đọc tín hiệu từ nút nhấn}\label{Code:Button 3-2}
+%Nội dung file \verb|INPUT_BUTTON.C| (Một cách làm khác của \textit{bài tập 3.2} trang \pageref{Ex:3-2}).
+%\lstinputlisting[language=C]{INPUT_BUTTON.C}
+\chapter{Thư viện RTC DS3231} \label{def:DS3231}
+Thư viện gồm 2 file \verb|DS3231.H| và \verb|DS3231.C| được viết bời tác giả \verb|sshahryiar| trên diễn đàn \verb|https://www.ccsinfo.com|\footnote{https://www.ccsinfo.com/forum/viewtopic.php?t=50256}
+\section*{Nội dung file DS3231.H}
+\lstinputlisting[language=C]{DS3231.H}
+\section*{Nội dung file DS3231.C}
+\lstinputlisting[language=C]{DS3231.C}
+\begin{comment}
+\chapter{Mô phỏng cảm biến nhiệt TC74 với Protues}\label{def:TC74}
+Trong quá trình tìm hiểu, em thấy có nhiều bạn gặp vấn đề khi mô phỏng cảm biến nhiệt độ TC74 với phần mềm protues. Em kiểm thử, và phát hiện được là cảm biến nhiệt \verb|TC74| trong phần mềm mô phỏng \verb|Protues 7.8| nó tương thích với địa chỉ \verb|I2C| là \verb|0x9A| (đa phần các bạn làm trên địa chỉ \verb|0x90| nên khi mô phỏng thì ra giá trị nhiệt độ không mong muốn).
+
+Về sơ đồ mạch và cách giải thích chương trình tương tự \textit{bài tập 6.1 trang \pageref{Ex:6-1}}.
+\paragraph{Chương trình sau mô phỏng được với phần mềm Protues 7.8}{~\\}
+\lstinputlisting[language=C]{BAI-6-1V2.C}
+\end{comment}
+\begin{comment}
+\chapter{Điều khiển tốc độ động cơ với Transistor}
+\paragraph{Sơ đồ mạch}{~\\}
+\begin{figure}[!h]
+\begin{center}
+\includegraphics[scale=.5]{bai-8/image/BAI-8-2-2}
+\end{center}
+\caption{Điều khiển tốc độ động cơ bằng qua kích Transistor}
+\end{figure}\\
+
+Nội dung của chương trình: 
+\lstinputlisting[language=C]{BAI-8-2-1.C}
+\end{comment}
+\input{phu-luc/phu-luc-tu-khoa-trong-fuses.tex}

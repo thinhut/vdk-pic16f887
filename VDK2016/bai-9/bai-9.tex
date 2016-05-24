@@ -1,0 +1,81 @@
+\chapter{ĐO KHOẢNG CÁCH BẰNG CẢM BIẾN SIÊU ÂM SRF05}
+\section{Giới thiệu chung}
+\subsection{Yêu cầu}
+Sử dụng vi điều khiển PIC 16F887 lập trình đo khoảng cách với cảm biến siêu âm SRF05.
+\subsection{Cảm biến siêu âm SRF05}
+Nguyên lý đo khoảng cách của cảm biến siêm âm SRF05:
+\begin{itemize}
+\item Dùng nguyên lý phản xạ sóng để đo vật cản.
+\item Cảm biến phát đi một lúc 8 xung với tần số $40kHz$, gặp vật cản xung phát đi sẽ dội về. Từ đây, có thể tính được khoảng cách.
+\item Khi phát xung đi, chân Echo ở mức cao, nhận xung dội về, chân Echo xuống mức thấp (hoặc sau $30ms$ không nhận được cũng xuống mức thấp).
+\end{itemize}
+
+Cảm biến có 2 chế độ hoạt động: chân Trigger và chân Echo dùng riêng hoặc dùng chung.
+\begin{itemize}
+\item Chân Trigger và chân Echo dùng riêng:
+\item Chân Trigger và chân Echo dùng chung:
+\end{itemize}
+\section{Đo khoảng cách với cảm biến siêu âm}
+Đo khoảng cách với cảm biến siêu âm chính là đo thời gian chân Echo ở mức cao. Ta thực hiện theo các bước sau:
+\begin{itemize}
+\item Kích chân Trigger: Xuất ra mức cao ở chân Trigger và delay tối thiểu $10\mu s$.
+\item Đợi chân Echo lên mức cao.
+\item Khi chân Echo lên mức cao, kích hoạt Timer: có 2 cách thực hiện:
+\begin{itemize}
+\item Đợi chân Echo xuống mức thấp.
+\item Cho phép ngắt cạnh xuống (sử dụng với ngắt).
+\end{itemize}
+\item Khi chân Echo xuống mức thấp, dừng Timer, tính thời gian từ Timer rồi suy ra khoảng cách.
+\begin{itemize}
+\item Có $v = 344 m/s = 344 \times 10^2 \times 10^{-6} = 0.0344 cm/\mu s$. Thời gian $t$ đơn vị là $\mu s$.
+\item Công thức tính khoảng cách:
+\begin{align*}
+S = 2 \times d \Longleftrightarrow d = \frac{S}{2} = \frac{v \times t}{2} = \frac{0.0344 \times t}{2} = \frac{t}{58.14} ~cm
+\end{align*}
+\item[$\ast$] Nếu sau $30ms$ mà không gặp vật cản thì chân $Echo$ cũng sẽ xuống mức thấp.
+\end{itemize}
+\item Reset lại giá trị của Timer để chuẩn bị cho các lần đo tiếp.
+\end{itemize}
+\section{Bài tập}
+\subsection{Bài tập 9.1}
+\paragraph{Yêu cầu}Viết chương trình đo khoảng cách bằng cảm biến siêu âm kết nối với vi điều khiển PIC 16F887.
+\begin{comment}
+\paragraph{Hướng giải quyết}
+\begin{itemize}
+\item[$\ast$] Viết chương trình theo mode 1: chân Echo và chân Trigger dùng riêng.
+\item[$\ast$] Sử dụng Timer 1 kết hợp với ngắt để đếm thời gian chân Echo ở mức cao.
+\item Khai báo chân chân Trigger là chân OUTPUT, chân Echo là chân INPUT nối với ngắt ngoài của vi điều khiển (chân B0).
+\item Xuất mức 1 ra chân Trigger và giữ trạng thái $10\mu s$ rồi kéo chân Trigger xuống mức 0.
+\item Dùng câu lệnh sau để đợi chân Echo lên mức cao: \verb|while (input(echo == 0));| không làm gì cả. Khi chân Echo lên mức cao, sẽ tự thoát khỏi vòng lặp \verb|while|.
+\item Kích hoạt Timer 1 để đếm thời gian: \verb|SET_TIMER1(0);| bắt đầu đếm từ 0.
+\item Đợi chân Echo xuống mức thấp: sử dụng ngắt ngoài để phát hiện xung cạnh xuống: \verb|EXT_INT_EDGE(H_TO_L);|
+\item Khi phát hiện có ngắt:
+\begin{itemize}
+\item Kiểm tra có phải ngắt do nhiễu hay ngắt đúng mong muốn: sử dụng lại phương pháp trong \textit{bài tập \ref{Ex:3-4} trang \pageref{Ex:3-4}}.
+\item Nếu không phải ngắt do nhiễu thì ta xử lý:
+\begin{list}{+}{}
+\item Tần số thạch anh là: $f = 20MHz$, tần số xung nội: $$ F^\prime = \frac{F}{4} = \frac{20MHz}{4} = 5MHz$$.
+\item Nên sẽ thực hiện $5000$ xung trong $1ms$.
+\item Giá trị tối đa của Timer 1 là $65535$, suy ra: Timer 1 đếm được tối đa là $\displaystyle \frac{65535}{5000} = 13.107ms < 30ms$, nên ta sử dụng bộ chia 4.
+\item Với bộ chia 4 thì Timer 1 đếm được tối đa $4 \times 13.107 = 52.428ms > 30ms$, thỏa điều kiện.
+\item[$\ast$] \textit{Kết luận}: Với bộ chia 4 -- $1ms$ thực hiện $1250$ xung, suy ra: $1\mu s$ thực hiện $1.25$ xung. Suy ra: thời gian đếm được: $$t = 1.25 \times GET\_TIMER1()$$
+\item Tính ra khoảng cách: $\displaystyle d = \frac{t}{58.14} ~cm$
+\item Reset lại Timer1: \verb|SET_TIMER1(0);|
+\end{list}
+\end{itemize}
+\end{itemize}
+\end{comment}
+\subsection*{Chương trình 26}
+\lstinputlisting[language=C]{BAI-9-1.C}
+\subsection{Bài tập 9.2}
+\paragraph{Yêu cầu}Viết chương trình đo khoảng cách bằng cảm biến siêu âm kết nối với vi điều khiển PIC 16F887 và gửi giá trị đo được lên máy tính.
+\subsection*{Chương trình 27}
+\lstinputlisting[language=C]{BAI-9-2.C}
+
+Hàm \verb|Serial_Callback| dùng để thiết lập cho tham số \verb|BytesAvailableFcn| trước khi mở cổng COM:
+\lstinputlisting[language=Matlab]{Serial_Callback.m}
+
+Lệnh Matlab nhận dữ liệu từ vi điều khiển gửi lên:
+\lstinputlisting[language=Matlab]{BAI-9-2.m}
+%\subsection{Bài tập 9.3}
+%\subsection*{Chương trình 29}
