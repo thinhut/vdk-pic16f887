@@ -1,0 +1,40 @@
+\chapter{Nội dung của các file thư viện được sử dụng trong chương trình}\label{lib}
+\section{Định nghĩa PIC16F887 - file DEF\_887.H} \label{def887}
+\begin{itemize}
+\item Nguồn tham khảo: \textit{Tài liệu thực tập vi điều khiển} của thầy Đường Khánh Sơn. 
+\item Nội dung của file \verb|DEF_887.H|:
+\lstinputlisting[language=C]{DEF_887.H}
+\end{itemize}
+\section{Định nghĩa các chân được sử dụng trong đề tài - file DEF\_PIN.H} \label{defpin}
+\begin{itemize}
+\item Nội dung của file \verb|DEF_PIN.H|:
+\lstinputlisting[language=C]{DEF_PIN.H}
+\end{itemize}
+\section{Thư viện LCD - file LCD\_LIB\_4BIT.C} \label{libLCD}
+\begin{itemize}
+\item Nguồn tham khảo: \textit{Tài liệu thực tập vi điều khiển} của thầy Đường Khánh Sơn. 
+\item Nội dung:  sử dụng một số hàm truyền 4 bit dữ liệu.
+\begin{itemize}
+\item \verb|LCD_Init();| -- Khởi tạo LCD.
+\item \verb|LCD_SetPosition(unsigned int cX);| -- Cài đặt vị trí con trỏ của LCD.
+\item \verb|LCD_PutChar(unsigned int cX);| -- Viết ký tự hoặc chuỗi lên LCD.
+\item \verb|LCD_PutCmd(unsigned int cX);| -- Gửi lệnh lên LCD.
+\item \verb|LCD_PulseEnable();| -- Xung kích hoạt.
+\item \verb|LCD_setData(unsigned int cX);| -- Đặt dữ liệu lên chân Data.
+\end{itemize}
+\item Nội dung của file \verb|LCD_LIB_4BIT.C|:
+\lstinputlisting[language=C]{LCD_LIB_4BIT.C}
+\end{itemize}
+\section{Chuẩn giao tiếp một dây - file ONEWIRE.C} \label{ONEWIRE}
+\begin{itemize}
+\item Nguồn tham khảo: \verb|ytuonghay.vn|
+\item Nội dung của file \verb|ONEWIRE.C|:
+\lstinputlisting[language=C]{ONEWIRE.C}
+\end{itemize}
+\newpage
+\section{Đọc nhiệt độ từ cảm biến DS18B20 - File DS18B20.C} \label{codeDS}
+\begin{itemize}
+\item Nguồn tham khảo: \verb|mcu.banlinhkien.vn|
+\item Nội dung của file \verb|DS18B20.C|:
+\lstinputlisting[language=C]{DS18B20.C}
+\end{itemize}

@@ -1,0 +1,67 @@
+\documentclass[13pt,a4paper]{extreport}
+\usepackage[utf8]{inputenc}
+\usepackage[utf8]{vietnam}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage{color}
+\graphicspath{ {images/} }
+\usepackage{enumerate}
+\usepackage{multirow}
+\usepackage{listings}
+\usepackage{indentfirst}
+\usepackage[unicode]{hyperref}
+%\usepackage[unicode, hidelinks=true]{hyperref} %Tu dong tao bookmark
+%\hypersetup{colorlinks = true}
+\usepackage[left=2.5cm,right=2cm,top=2cm,bottom=2cm]{geometry}
+%\usepackage[toc,page]{appendix}
+\definecolor{dkgreen}{rgb}{0,0.6,0}
+\definecolor{gray}{rgb}{0.5,0.5,0.5}
+\definecolor{mauve}{rgb}{0.58,0,0.82}
+
+\lstset{frame=tb,
+  language=C,
+  aboveskip=3mm,
+  belowskip=3mm,
+  showstringspaces=false,
+  columns=flexible,
+  basicstyle={\small\ttfamily},
+  numbers=left,
+  numberstyle=\tiny\color{gray},
+  keywordstyle=\color{blue},
+  commentstyle=\color{dkgreen},
+  stringstyle=\color{mauve},
+  breaklines=true,
+  captionpos=t,
+  breakatwhitespace=true,
+  tabsize=2
+}
+\begin{document}
+
+\input{chapter/title-page}
+\pagenumbering{roman}
+\tableofcontents
+ 
+\thispagestyle{empty}
+ 
+\listoffigures
+ 
+\listoftables
+ 
+\newpage
+ 
+\pagenumbering{arabic}
+
+\part*{NỘI DUNG BÁO CÁO}
+\addcontentsline{toc}{part}{NỘI DUNG BÁO CÁO}
+\input{chapter/chapter-gioi-thieu-de-tai.tex}
+\input{chapter/chapter-phan-cung.tex}
+\input{chapter/chapter-phan-mem.tex}
+\input{chapter/chapter-mo-hinh.tex}
+\appendix
+\part*{PHỤ LỤC}
+\addcontentsline{toc}{part}{PHỤ LỤC}
+\input{chapter/appendix-phan-cung.tex}
+\input{chapter/appendix-thu-vien.tex}
+\end{document}

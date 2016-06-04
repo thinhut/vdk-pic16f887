@@ -1,0 +1,28 @@
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {1.1}{\ignorespaces S\IeC {\ohorn } \IeC {\dj }\IeC {\`\ocircumflex } ch\IeC {\^a}n c\IeC {\h u}a PIC 16F887}}{4}{figure.1.1}
+\contentsline {figure}{\numberline {1.2}{\ignorespaces C\IeC {\'a}ch m\IeC {\'\abreve }c m\IeC {\d a}ch dao \IeC {\dj }\IeC {\d \ocircumflex }ng b\IeC {\`\abreve }ng th\IeC {\d a}nh anh cho PIC 16F877A}}{5}{figure.1.2}
+\contentsline {figure}{\numberline {1.3}{\ignorespaces C\IeC {\'a}ch k\IeC {\'\ecircumflex }t n\IeC {\'\ocircumflex }i LCD v\IeC {\'\ohorn }i vi \IeC {\dj }i\IeC {\`\ecircumflex }u khi\IeC {\h \ecircumflex }n PIC 16F887}}{7}{figure.1.3}
+\contentsline {figure}{\numberline {1.4}{\ignorespaces C\IeC {\'a}ch k\IeC {\'\ecircumflex }t n\IeC {\'\ocircumflex }i c\IeC {\h a}m bi\IeC {\'\ecircumflex }n nhi\IeC {\d \ecircumflex }t \IeC {\dj }\IeC {\d \ocircumflex } DS18B20 v\IeC {\'\ohorn }i vi \IeC {\dj }i\IeC {\`\ecircumflex }u khi\IeC {\h \ecircumflex }n PIC16F887}}{9}{figure.1.4}
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {3.1}{\ignorespaces M\IeC {\d a}ch m\IeC {\^o} ph\IeC {\h o}ng c\IeC {\h u}a \IeC {\dj }\IeC {\`\ecircumflex } t\IeC {\`a}i v\IeC {\'\ohorn }i Protues}}{19}{figure.3.1}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces M\IeC {\d a}ch l\IeC {\`a}m th\IeC {\d \uhorn }c t\IeC {\'\ecircumflex } c\IeC {\h u}a \IeC {\dj }\IeC {\`\ecircumflex } t\IeC {\`a}i}}{20}{figure.3.2}
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {A.1}{\ignorespaces Vi \IeC {\dj }i\IeC {\`\ecircumflex }u khi\IeC {\h \ecircumflex }n PIC 16F887}}{22}{figure.A.1}
+\contentsline {figure}{\numberline {A.2}{\ignorespaces C\IeC {\h a}m bi\IeC {\'\ecircumflex }n nhi\IeC {\d \ecircumflex }t \IeC {\dj }\IeC {\d \ocircumflex } DS18B20 (lo\IeC {\d a}i d\IeC {\^a}y)}}{22}{figure.A.2}
+\contentsline {figure}{\numberline {A.3}{\ignorespaces M\IeC {\`a}n h\IeC {\`\i }nh hi\IeC {\h \ecircumflex }n th\IeC {\d i} LCD 16x2}}{23}{figure.A.3}
+\contentsline {figure}{\numberline {A.4}{\ignorespaces Module Relay 5VDC v\IeC {\'\ohorn }i Opto c\IeC {\'a}ch ly}}{23}{figure.A.4}
+\contentsline {figure}{\numberline {A.5}{\ignorespaces M\IeC {\d a}ch n\IeC {\d a}p PICKIT2 K150}}{23}{figure.A.5}
+\contentsline {figure}{\numberline {A.6}{\ignorespaces N\IeC {\'u}t nh\IeC {\'\acircumflex }n lo\IeC {\d a}i 4 ch\IeC {\^a}n}}{24}{figure.A.6}
+\contentsline {figure}{\numberline {A.7}{\ignorespaces \IeC {\DJ }i\IeC {\d \ecircumflex }n tr\IeC {\h \ohorn } $4.7k\Omega $}}{24}{figure.A.7}
+\contentsline {figure}{\numberline {A.8}{\ignorespaces Bi\IeC {\'\ecircumflex }n tr\IeC {\h \ohorn } $10k\Omega $}}{24}{figure.A.8}
+\contentsline {figure}{\numberline {A.9}{\ignorespaces Th\IeC {\d a}ch anh t\IeC {\`\acircumflex }n s\IeC {\'\ocircumflex } $20MHz$}}{25}{figure.A.9}
+\contentsline {figure}{\numberline {A.10}{\ignorespaces T\IeC {\d u} \IeC {\dj }i\IeC {\d \ecircumflex }n $15pF$}}{25}{figure.A.10}
+\contentsline {figure}{\numberline {A.11}{\ignorespaces Domino \IeC {\dj }\IeC {\'\acircumflex }u n\IeC {\'\ocircumflex }i}}{25}{figure.A.11}
+\contentsline {figure}{\numberline {A.12}{\ignorespaces \IeC {\DJ }\IeC {\'\ecircumflex } IC 40 ch\IeC {\^a}n}}{26}{figure.A.12}
+\contentsline {figure}{\numberline {A.13}{\ignorespaces R\IeC {\`a}o c\IeC {\'a}i lo\IeC {\d a}i \IeC {\dj }\IeC {\ohorn }n}}{26}{figure.A.13}
+\contentsline {figure}{\numberline {A.14}{\ignorespaces R\IeC {\`a}o c\IeC {\'a}i lo\IeC {\d a}i \IeC {\dj }\IeC {\ohorn }n}}{26}{figure.A.14}
+\contentsline {figure}{\numberline {A.15}{\ignorespaces D\IeC {\^a}y k\IeC {\'\ecircumflex }t n\IeC {\'\ocircumflex }i 2 \IeC {\dj }\IeC {\`\acircumflex }u c\IeC {\'a}i - c\IeC {\'a}i}}{27}{figure.A.15}
+\contentsline {figure}{\numberline {A.16}{\ignorespaces Testboard h\IeC {\`a}n m\IeC {\d a}ch}}{27}{figure.A.16}
+\contentsline {figure}{\numberline {A.17}{\ignorespaces \IeC {\DJ }\IeC {\d \ocircumflex }ng c\IeC {\ohorn } 5VDC}}{27}{figure.A.17}
+\addvspace {10\p@ }
